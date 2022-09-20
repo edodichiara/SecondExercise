@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SecondExercise</string>
+    <string name="bottom_first_fragment">Home</string>
+    <string name="bottom_second_fragment">Info</string>
+    <string name="tvFirstFragment">Hello, welcome in my application.</string>
+    <string name="tvSecondFragment">Info about me</string>
+    <string name="infoSecondFragment">My name is Edoardo, I am not a developer yet. This exercise is
+        not difficult at all, but I have some doubt. I still hope for 3 stars.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Secondo Esercizio</string>
+    <string name="bottom_first_fragment">Home</string>
+    <string name="bottom_second_fragment">Info</string>
+    <string name="tvFirstFragment">Ciao, benvenuta/o nella mia applicazione.</string>
+    <string name="tvSecondFragment">Informazioni su di me</string>
+    <string name="infoSecondFragment">Mi chiamo Edoardo, non sono ancora uno sviluppatore. Questo
+        esercizio non è affatto difficile, ma ho qualche dubbio. Spero comunque nelle 3 stelle.</string>
+</resources>

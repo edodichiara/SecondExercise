@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     tools:context=".SecondFragment"
-    android:padding="16dp">
+    android:padding="@dimen/normal_padding">
 
     <TextView
         android:id="@+id/tvSecondFragment"

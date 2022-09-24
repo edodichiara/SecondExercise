@@ -7,4 +7,6 @@
     <string name="tvSecondFragment">Informazioni su di me</string>
     <string name="infoSecondFragment">Mi chiamo Edoardo, non sono ancora uno sviluppatore. Questo
         esercizio non è affatto difficile, ma ho qualche dubbio. Spero comunque nelle 3 stelle.</string>
+    <string name="hint_edit_text">Inserisci la tua email</string>
+    <string name="button_first_fragment">Inserisci</string>
 </resources>

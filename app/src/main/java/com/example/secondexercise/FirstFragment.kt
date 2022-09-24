@@ -24,7 +24,7 @@ class FirstFragment : Fragment(R.layout.fragment_first) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.buttonFirstFragment.setOnClickListener {
-            if (binding.editTextFirstFragment.text.contains("@")){
+            if (binding.editTextFirstFragment.text.contains("@") && binding.editTextFirstFragment.length() >= 5){
                 binding.emailText.text = binding.editTextFirstFragment.text
                 Toast.makeText(context, resources.getString(R.string.toast_text), Toast.LENGTH_SHORT).show()
             } else {

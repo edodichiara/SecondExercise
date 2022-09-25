@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.example.secondexercise.databinding.FragmentSecondBinding
 
 
@@ -14,7 +13,7 @@ class SecondFragment : Fragment() {
     private var bindingSecond: FragmentSecondBinding? = null
     private val binding get() = bindingSecond!!
 
-    var arts = listOf<Art>(Art("Gioconda"), Art("Nascita di Venere"), Art("Primavera"), Art("Impressione sole nascente"))
+    var arts = listOf<Art>(Art("Gioconda", R.drawable.gioconda), Art("Nascita di Venere", R.drawable.nascita_di_venere), Art("Primavera", R.drawable.primavera_botticelli), Art("Impressione sole nascente", R.drawable.impressione_sole_nascente))
 
 
     override fun onCreateView(

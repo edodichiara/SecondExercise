@@ -4,5 +4,7 @@
     <dimen name="text_normal_tvSecondFragment">20sp</dimen>
     <dimen name="normal_padding">16dp</dimen>
     <dimen name="minimum_height">48dp</dimen>
+    <dimen name="margin_image">24dp</dimen>
+    <dimen name="image_size">200dp</dimen>
 
 </resources>

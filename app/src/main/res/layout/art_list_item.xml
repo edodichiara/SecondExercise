@@ -15,4 +15,14 @@
         tools:text="Gioconda"
         style="@style/normal_style" />
 
+    <ImageView
+        android:id="@+id/art_image"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_marginTop="@dimen/margin_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/art_name" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

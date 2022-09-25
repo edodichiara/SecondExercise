@@ -1,3 +1,5 @@
 package com.example.secondexercise
 
-data class Art(val name: String)
+import android.widget.ImageView
+
+data class Art(val name: String, val image: Int)

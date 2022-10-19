@@ -6,6 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".FirstFragment">
 
+    <Button
+        android:id="@+id/button_first_fragment"
+        android:text="@string/button_first_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_first_fragment"/>
+
+    <EditText
+        android:id="@+id/edit_text_first_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edit_text"
+        android:minHeight="@dimen/minimum_height"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFirstFragment"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="yes"
+        android:autofillHints="emailAddress" />
+
     <TextView
         android:id="@+id/tvFirstFragment"
         android:text="@string/tvFirstFragment"
@@ -14,4 +37,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         style="@style/normal_style" />
+
+    <TextView
+        android:id="@+id/email_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/normal_style"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFirstFragment"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
